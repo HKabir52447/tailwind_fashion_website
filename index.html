@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Fashion</title>
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tailwind cdn  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- header section  -->
+<header>
+    <!-- navigation -->
+    <nav class="flex justify-between px-16 py-4" style="background-color: #85bc4667;">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="navbar pr-8">
+            <a href="" class="px-4 font-bold">Home</a>
+            <a href="" class="px-4 font-bold">Product</a>
+            <a href="" class="px-4 font-bold">About us</a>
+            <a href="" class="px-4 font-bold">Contact us</a>
+        </div>
+    </nav>
+    <!-- banner -->
+    <div class="banner flex px-16 pt-4">
+        <div class="banner_text w-2/5 flex items-center">
+          <div>
+            <h1 class="text-5xl uppercase font-bold pb-3 text-gray-700">
+                <span class="text-yellow-400">Be the penguins</span> <br> of winter
+            </h1>
+            <p class="pb-3 pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptate quo non tempora sapiente sint neque recusandae temporibus!</p>
+            <button class="px-5 py-2 rounded text-white font-medium" style="background: #A4BC46;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>Buy now</button>
+          </div>
+        </div>
+        <div class="banner_img w-3/5">
+            <img class="pl-8" src="images/model.png" alt="">
+        </div>
+    </div>
+    <!-- section divider shape -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L48,240C96,256,192,288,288,277.3C384,267,480,213,576,181.3C672,149,768,139,864,160C960,181,1056,235,1152,250.7C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</header>
+<main class="py-4">
+    <div class="products px-16">
+        <div class="woman_jacket">
+            <div class="title">
+                <h2 class="text-4xl">Woman jacket</h2>
+            </div>
+            <div>
+                <img src="images/jacket-1.png" alt="">
+                <h4>Yellow Coat Jacket</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat doloribus nobis debitis asperiores eius amet?</p>
+                <div class="price flex justify-between">
+                    <h2>$234</h2>
+                    <button class="px-5 py-2 rounded text-white font-medium" style="background: #A4BC46;">
+                        Buy now</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</main>
+
+    
+</body>
+</html>
