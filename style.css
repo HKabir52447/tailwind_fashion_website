@@ -13,3 +13,9 @@ header{
     bottom: 0;
     width: 100%;
 }
+.products{
+    background-color: #e5ebff;
+}
+.price h2{
+    color: #8ca527;
+}
